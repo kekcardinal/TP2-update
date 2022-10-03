@@ -29,3 +29,32 @@ p {
     font-size: 15pt;
     padding: 50px;
 }
+
+.conteneur-education {
+    margin: 15px;
+}
+
+.ligne-education {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.colonne-education {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@media screen and (min-width:600px) {
+    .colonne-education {
+        flex: 1
+    }
+}
