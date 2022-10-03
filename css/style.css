@@ -1,0 +1,31 @@
+@import "style-navbar.css";
+@import "style-images.css";
+@import "style-footer.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+/*BODY*/
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #dbe2ef;
+    /* Enleve l'espace entre le body et l'exterieur de la page */
+    margin: 0;
+    color: #112D4E;
+}
+
+section,
+header {
+    text-align: center;
+}
+
+header {
+    padding: 50px;
+}
+
+p {
+    width: 75%;
+    margin: auto;
+    font-size: 15pt;
+    padding: 50px;
+}
