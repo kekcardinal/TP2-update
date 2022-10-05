@@ -1,11 +1,28 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 /* Settings footer*/
 footer {
     background-color: #f9f7f7;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    margin-top: -200px;
     color: #112D4E;
     font-size: 13pt;
     width: 100%;
 }
 
+
+#page {
+    min-height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
 
 .conteneur {
     display: grid;

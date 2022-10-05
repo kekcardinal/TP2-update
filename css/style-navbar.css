@@ -20,16 +20,18 @@ nav ul a {
     display: block;
 }
 
-nav ul a:hover {
+nav a.active {
+    background-color: #112D4E;
+    color: white;
+}
+
+nav a:hover:not(.active) {
     background-color: #112D4E;
     color: white;
     transition-duration: .5s;
 }
 
-nav ul a:active {
-    background-color: #112D4E;
-    color: white;
-}
+
 
 nav {
     width: 100%;
