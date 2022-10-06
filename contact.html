@@ -18,53 +18,42 @@
                 <li role="menuitem"><a href="index.html">Introduction</a></li>
                 <li role="menuitem"><a href="education.html">Éducation</a></li>
                 <li role="menuitem"><a href="carriere.html">Carrière</a></li>
-                <li role="menuitem"><a href="realisations.html" class="active">Realisation</a></li>
-                <li role="menuitem"><a href="contact.html">Contact</a></li>
+                <li role="menuitem"><a href="realisations.html">Realisation</a></li>
+                <li role="menuitem"><a href="contact.html" class="active">Contact</a></li>
                 <li role="menuitem"><a href="validation.html">Validation</a></li>
             </ul>
         </nav>
         <header>
-            <h1>Réalisation</h1>
+            <h1>Contact</h1>
         </header>
         <main>
-            <section class="section_image">
-                <section>
-                    <img class="image_realisation" src="images/photo_1.jpg" alt="Urubu">
-                    <p>Urubu à tête rouge</p>
-                </section>
-                <section>
-                    <img class="image_realisation" src="images/photo_2.jpg" alt="Picbois">
-                    <p>Picbois qui trouve sa nourriture</p>
-                </section>
-                <section>
-                    <img class="image_realisation" src="images/photo_3.jpg" alt="Ginette">
-                    <p>Ginette le chat</p>
-                </section>
-                <section>
-                    <img class="image_realisation" src="images/photo_4.jpg" alt="Batiment Quebec">
-                    <p>Batiment de la ville de Québec</p>
-                </section>
-                <section>
-                    <img class="image_realisation" src="images/photo_5.jpg" alt="Jaseur boreal">
-                    <p>Jaseur boréal</p>
-                </section>
-                <section>
-                    <img class="image_realisation" src="images/photo_6.jpg" alt="Moucherole Phebi">
-                    <p>Moucherole phébi</p>
-                </section>
-                <section>
-                    <img class="image_realisation" src="images/photo_7.jpg" alt="Cardinal">
-                    <p>Cardinal</p>
-                </section>
-                <section>
-                    <img class="image_realisation" src="images/photo_8.jpg" alt="Mesange a tete noir">
-                    <p>Mésange à tête noir</p>
-                </section>
-                <section>
-                    <img class="image_realisation" src="images/photo_9.jpg" alt="Montagne Alberta">
-                    <p>Montagne d'Alberta</p>
-                </section>
-            </section>
+            <div class="form">
+                <form action="">
+                    <div class="row">
+                        <div class="col">
+                            <label for="f_name">Prenom:</label>
+                            <input class="form-control" type="text" id="f_name" name="f_name">
+                        </div>
+                        <div class="col">
+                            <label for="l_name">Nom:</label>
+                            <input class="form-control" type="text" id="l_name" name="l_name">
+                        </div>
+                        <div class="col">
+                            <label for="email"> Email:</label>
+                            <input class="form-control" type="email" id="email" name="email">
+                        </div>
+                        <div class="col">
+                            <label for="sujet">Sujet:</label>
+                            <input class="form-control" type="text" id="sujet" name="sujet">
+                        </div>
+                        <div class="col">
+                            <label class="commentaire" for="commentaire">Commentaire:</label>
+                            <textarea class="form-control" name="commentaire" id="commentaire" cols="25"
+                                rows="10"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </main>
 
         <footer>
